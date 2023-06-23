@@ -1,0 +1,18 @@
+
+html {
+    background-color: #ccc;
+    
+}
+form {
+    width: 400px;
+    padding: 40px;
+    margin: 20px;
+    border: 3px solid #f1f1f1;
+    box-shadow: rgba(117, 218, 204, 0.25) 0px 54px 55px, rgba(117, 218, 204, 0.25) 0px -12px 30px, rgba(117, 218, 204, 0.25) 0px 4px 6px, rgba(117, 218, 204, 0.25) 0px 12px 13px, rgba(117, 218, 204, 0.25) 0px -3px 5px; ;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+#btnSearch {
+    background-color: aqua;
+}

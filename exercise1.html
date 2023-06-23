@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Form</title>
+    <link
+      rel="stylesheet"
+      href="/PT_06/Exercise/session2-2.css"
+    />
+    <script src="https://kit.fontawesome.com/58a97a1ad0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <div id="loginForm">
+      <form
+        id="form "
+        action="/PT_06/Exercise/session2-2.css"
+        method="post"
+        style="
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        "
+      >
+        <h1>Order Form</h1>
+        <label for=""><b>What would you like to buy</b></label> <br /><br />
+        <input type="text" id="search" /> 
+        <button type="submit" id="btnSearch"><i class="fa fa-search"></i></button>
+
+        <br /><br />
+        <label for=""> <b>How many would you like to order</b></label>
+        <br /><br />
+        <input type="radio" name="choosemoney" />1-$10 <br />
+        <input type="radio" name="choosemoney" />2-$20 <br />
+        <input type="radio" name="choosemoney" />3-$25 <br />
+        <br />
+        <label for=""><b>Name</b></label> <br /><br />
+        <input type="text" placeholder="FirstName" required />
+        <input type="text" placeholder="LastName" required /> <br /><br />
+        <label for=""><b>Email</b></label> <br /><br />
+        <input type="email" /> <br /><br />
+        <label for=""><b>PhoneNumber</b></label> <br /><br />
+        <input type="text" id="phone phone1" style="width: 50px;" />- <input type="text" id="phone phone3" style="width: 50px;"> - <input type="text" id="phone phone3" style="width: 50px;"  /> <br />
+        <br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
