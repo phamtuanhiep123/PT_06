@@ -1,0 +1,95 @@
+<!-- 
+    Các bywowsc thiết kế website
+    1. Phân tích
+    2. Dựng base
+    3. Xây dựng theo từng phần phân tích
+ -->
+<!-- 
+    Gọi tên các thành phần của trang web
+    1,Header( Đầu trang)
+    2, Navigation ( Điều hướng của trang)
+    3, Breadcumb
+    4,Sidebar
+    5, Slider ( được biểu diễn hình ảnh dưới dạng trượt)
+    6, Footer ( chân trang)
+    7, Content ( nội dung chính)
+    - About
+    - Tour
+    - Contact
+    - Image
+    - Footer
+    8, COntainer
+    muốn select nhiều con ctrl+D
+
+    hiển thị hình bàn tay css cursor
+  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/icons/themify-icons/themify-icons.css"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <!-- Begin:Nav -->
+        <ul id="nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">Band</a></li>
+          <li><a href="">Tour</a></li>
+          <li><a href="">Contact</a></li>
+          <li>
+            <!-- để # để không đi dến màn hình nào cả -->
+            <a href="">
+              More
+              <i class="nav-arrow-down ti-angle-down"></i>
+            </a>
+            <ul class="subnav">
+              <li><a href="">Merchandise</a></li>
+              <li><a href="">Extras</a></li>
+              <li><a href="">Media</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- End: Nav -->
+
+        <!-- Begin: Search -->
+        <div class="search-btn">
+          <i class="search-icon ti-search"></i>
+        </div>
+        <!-- End: Search -->
+      </div>
+
+      <div id="slider">
+        <!-- <img src="assets/css/img/slider3.jpg" alt=""> -->
+        <div class="text-content">
+          <h2 class="text-heading">New York</h2>
+        <div class="text-description">
+          The atmosphere in New York is lorem ipsum.
+        </div>
+        </div>
+      </div>
+
+      <div id="content">
+        <div class="content-session">
+          
+        </div>
+        <div class="content-session">
+          
+        </div>
+        <div class="content-session">
+          
+        </div>
+      </div>
+
+      <div id="footer"></div>
+    </div>
+  </body>
+</html>
