@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+.super-parent-footer {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    height: 300px;
+    background-color: black;
+}
+/* parent-footer-1 */
+.frame {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.paragraph {
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* parent-footer-2 */
+
+.archor {
+  padding-bottom: 20px;
+  
+}
+.a-archor {
+    text-decoration: none;
+}
+h3 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}

@@ -4,76 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <style>
-      /* table {
-        display: block;
-        width: 190px;
-        height: 50px;
-        background-color: aqua;
-      } */
-      td {
-        width: 190px;
-        height: 50px;
-        text-align: center;
-        background-color: aqua;
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .super-frame {
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        background-color: #ccc;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+      }
+      input {
+        width: 250px;
+        /* border-radius: 2px; */
+      }
+      input::placeholder {
+        padding-left: 4px;
+      }
+
+      select {
+        width: 253px;
+        border-radius: 2px;
+      }
+      textarea {
+        margin-left: 30px;
+        width: 540px;
+        resize: none;
+        border-radius: 2px;
+      }
+      button {
+        margin-left: 30px;
+        width: 540px;
+        height: 30px;
+        margin-bottom: 15px;
+        margin-top: 10px;
         color: #fff;
-        font-size: 30px;
+        background-color: black;
+        border-radius: 5px;
+      }
+      /* .name {
+            display: flex;
+            justify-content: space-around;
+        } */
+      .firstname,
+      select {
+        margin-left: 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        height: 30px;
+      }
+      .lastname {
+        margin-left: 30px;
+        height: 30px;
       }
     </style>
-    <div>
-      <table border="2">
-        <tr>
-          <td>190x50</td>
-        </tr>
-      </table>
+    <div class="super-frame">
       <div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
-          reiciendis enim totam. Quia ea quaerat <br />
-          quas, pariatur reprehenderit possimus voluptas laudantium quidem id
-          provident ratione culpa, aperiam odio nam dicta!
-        </p>
-        <div>
-          <h3>Information link</h3>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Home</a></li>
-          </ul>
+        <div class="name">
+          <div>
+            <input type="text" placeholder="First Name" class="firstname" />
+            <input type="text" placeholder="Your Email" class="lastname" />
+          </div>
+          <div>
+            <td>
+              <input type="text" placeholder="Last Name" class="firstname" />
+            </td>
+            <td>
+              <input type="text" placeholder="Your Phone" class="lastname" />
+            </td>
+          </div>
+          <div>
+            <select name="" id="" aria-placeholder="Select Country">
+              <option value=" Viet Nam">Viet Nam</option>
+              <option value=" Nhat Ban">Nhat Ban</option>
+              <option value=" Han Quoc">Han Quoc</option>
+              <option value=" My ">My</option>
+            </select>
+            <select name="" id="" aria-placeholder="Select Country">
+              <option value=" Viet Nam">Viet Nam</option>
+              <option value=" Nhat Ban">Nhat Ban</option>
+              <option value=" Han Quoc">Han Quoc</option>
+              <option value=" My ">My</option>
+            </select>
+          </div>
         </div>
-        <br />
+
         <div>
-          <h3>Contact Details</h3>
-          <ul>
-            <li>
-              <i><a href="">info@yoursite.com</a></i>
-            </li>
-            <li><a href="">yoursite.com</a></li>
-            <li><i>123 Nguyen Van B,HCM City,VietNam</i></li>
-            <li><a href="">+61383766284</a></li>
-          </ul>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
         </div>
-        <br />
         <div>
-          <h3>Socials</h3>
-          <ul>
-            <li><i class="fa-brands fa-square-facebook"></i>22.453 Likes</li>
-            <li><i class="fa-brands fa-github"></i>128 Projects</li>
-            <li><i class="fa-brands fa-twitter"></i>12.880 Followers</li>
-            <li></li>
-            <li></li>
-          </ul>
+          <button>Submit</button>
         </div>
       </div>
     </div>

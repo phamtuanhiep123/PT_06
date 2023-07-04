@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+#body {
+    border: 2px solid #ccc;
+    padding: 15px;
+    background-color: #ccc;
+  
+    float: left;
+}
+h1 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif ;
+    padding-top: 20px;
+}
+
+p {
+    padding-top: 20px;
+    color: #F5F5F5
+    ;
+}
+
+table {
+     width: 400px;
+    height: 250px; 
+    object-fit: cover;
+    margin: 15px 0;
+}
+
+
+#img-frame-color,#img-list {
+    border-radius: 8px;
+    background-size: cover; 
+    background-image: url(https://kinsta.com/wp-content/uploads/2020/08/tiger-jpg.jpg);
+}
+#img-list {
+    width: 120px;
+    height: 80px;
+}
+
+
+  
+    
+
+p {
+    width: 400px;
+ 
+    word-wrap: break-word;
+}
+
+/* #img-list {
+    display: flex;
+    justify-content: right;
+} */
+#new-list {
+      display: flex;
+    flex-direction: column;   
+ }
+.new-list1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+} 
+
+#img_1 {
+    width: 40px;
+    height: 40px;
+}
+img {
+    width: 200px;
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.parent-information{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.super-parent-information {
+    display: flex;
+    border: 2px solid #ccc;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.information {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #B5B5B5
+    ;
+}
+.title {
+    color: black;
+}
+ h3{
+     display: flex; 
+    margin: 20px;
+    font-weight: 5px;
+    font-style: bold;
+}
+.address {
+    display: flex; 
+    margin: 20px 0px  20px 35px;
+
+}
+.header {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+hr{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    
+} 
+
+/* input form */
+.input-form {
+    display: flex;
+    flex-direction: column;
+justify-content: flex-end;   
+}
+.child {
+     margin-bottom: 10px; 
+     width: 450px ;
+     height: 30px;
+    
+}
+.child-area {
+    width: 450px ;
+    height: 150px;
+    resize: none;
+}
+.btn-child {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 35px;
+    width: 130px;
+    color: #fff;
+    background-color:#00FFFF ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+textarea::placeholder {
+    padding-top: 8px;
+}
