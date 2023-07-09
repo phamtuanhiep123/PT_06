@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking-Form</title>
+    <link rel="stylesheet" href="/MD1-SS7-Exercise/exercise1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="Home">
+      <div class="super-header">
+        <div class="header-logo">
+          <img src="/MD1-SS7-Exercise/img/logo.png" alt="" />
+        </div>
+        <div class="header-profiles">
+          <ul>
+            <li><p>VNĐ</p></li>
+            <!-- <li id="amex"> <i class="fa-brands fa-cc-amex"></i></li> -->
+            <li id="amex"><div class="flag"></div></li>
+            <li><i class="fa-regular fa-bell"></i></li>
+            <li id="profiles"></li>
+            <li>
+              <div class="dropdown">
+                <a
+                  class="btn btn-secondary dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  John
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="super-breadcumb">
+        <nav class="nav-breadcumb">
+          <ol class="ol-breadcumb">
+            <li class="breadcumb-list"><a href="">Home</a></li>
+            <li class="breadcumb-list"><a href="">Hotel List</a></li>
+            <li class="breadcumb-list"><a href="">Hotel Details</a></li>
+            <li class="breadcumb-list"><a href="">Confirm and Pay</a></li>
+          </ol>
+        </nav>
+      </div>
+      <div class="form-booking form-parent">
+        <div class="form-confirmbooking form-item">
+          <!-- your tour -->
+          <h2>Confirm your booking</h2>
+          <h3>Your tour</h3>
+          <div class="form-mytour">
+            <div class="form-mytour-date">
+              <div class="form-mytour-date-child">
+                <p>Date</p>
+                <p>June 27-30,2020</p>
+              </div>
+              <div class="form-mytour-date-child">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </div>
+            </div>
+            <div class="form-mytour-person">
+              <div class="form-mytour-person-child">
+                <p>Date</p>
+                <p>June 27-30,2020</p>
+              </div>
+              <div class="form-mytour-person-child">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </div>
+            </div>
+          </div>
+          <!-- creadit-card -->
+          <h3>Credit Card</h3>
+          <div class="super-card">
+            <div class="card master-card">
+              <img
+                class="img-card"
+                src="/MD1-SS7-Exercise/img/Light Color/2.png"
+                alt=""
+              />
+            </div>
+            <div class="card paypal">
+              <img
+                class="img-card"
+                src="/MD1-SS7-Exercise/img/Light Color/5.png"
+                alt=""
+              />
+            </div>
+            <div class="card visa">
+              <img
+                class="img-card"
+                src="/MD1-SS7-Exercise/img/Light Color/1.png"
+                alt=""
+              />
+            </div>
+            <div class="card americanexpress">
+              <img
+                class="img-card"
+                src="/MD1-SS7-Exercise/img/Light Color/22.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <hr />
+          <div class="card-detail">
+            <div>
+              <img
+                class="img-card-detail"
+                src="/MD1-SS7-Exercise/img/card 1.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="img-card-detail"
+                src="/MD1-SS7-Exercise/img/card 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="form-creditcard-input">
+            <div class="input-cardnumber">
+              <label class="label-form-input" for="" required> Card Number</label> <br><br>
+              <input  type="text" class=" input input-cardnumber" />
+            </div>
+            <div class="input-card-date-cvv">
+              <div class="input-date-parent">
+                <label  class="label-form-input" for=""> Expiry Date</label><br><br>
+                <div class="select-cvv">
+                    <select name="month" id="month" onchange="" size="1">
+                        <option value="00">MM</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                      </select>
+                  <p class="horizontal
+                  ">/</p>
+                      <select name="year" id="year" onchange="" size="1">
+                        <option value="00">YY</option>
+                        <option value="01">16</option>
+                        <option value="02">17</option>
+                        <option value="03">18</option>
+                        <option value="04">19</option>
+                        <option value="05">20</option>
+                        <option value="06">21</option>
+                        <option value="07">22</option>
+                        <option value="08">23</option>
+                        <option value="09">24</option>
+                        <option value="10">25</option>
+                      </select>
+                </div>
+              </div>
+              <div class="input-cvv-parent">
+                <label  class="label-form-input" for=""> CVC/CVV</label><br><br>
+                <input
+                  type="text"
+                  placeholder="CVC/CVV"
+                  data-slots="0"
+                  data-accept="\d"
+                 maxlength="3"
+                  require
+                  class=" input input-cvv" 
+                />
+              </div>
+            </div>
+            <div class="checkbox-card"><input type="checkbox" name="" id="checkbox-savecard" /> <p>Save Card</p></div>
+            <div>
+              <button id="btn-card-submit">Confirm and reserve</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-detail form-item">
+          <div class="form-detail-child">
+            <h2> Switzerland Hotels and Places to stay</h2>
+          <div class="form-detail-child-img">
+            <img  src="/MD1-SS7-Exercise/img/card 3.png" class="form-detail-child-img-child" alt="">
+          </div>
+           <p> 1 bedroom + 1 private room</p>
+           <hr>
+           <div class="table-information-date">
+            <table>
+              <tr>
+                <td><label for=""> Check in</label></td>
+                <td><label for=""> Check out</label></td>
+              </tr>
+              <tr>
+                <td>June 27,2020</td>
+                <td>June 30,2020</td>
+              </tr>
+              
+            </table>
+            <div class="label-guest">
+              <label for="" > Guest</label>
+              <p> 2 guests</p>
+            </div>
+            <h2>Booking Details</h2>
+            <div class="booking-detail-money">
+              <table>
+                <tr>
+                  <td><p>$119+ 5nights</p></td>
+                  <td>$103</td>
+                </tr>
+                <tr>
+                  <td> <p>Ocupancy text and fee</p></td>
+                  <td>$103</td>
+                </tr>
+                <tr>
+                  <td><p>Service fee</p></td>
+                  <td>$103</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>$103</td>
+                </tr>
+              </table>
+              <p class="report"><a href=""> Report this property </a></p>
+            </div> 
+          </div>
+          </div>
+        </div>
+      
+      </div>
+      <div class="super-offers">
+        <div>
+          <h1> Get out pro offers</h1>
+          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, fuga!</p>
+        </div>
+        <div class="btn-subcribe">
+          <input type="text" name="" id="">
+          <button>Subcribe</button>
+        </div>
+      </div>
+      <div class="footer">
+        
+          <div class="footer-child">
+            <ul>
+              <li><h3> Services</h3></li>
+              <li><p> Travel Booking</p></li>
+              <li><p> Travel Booking</p></li>
+              <li><p> Travel Booking</p></li>
+              <li><p> Travel Booking</p></li>
+              <li><p> Travel Booking</p></li>
+            </ul>
+          </div>
+          <div class="footer-child">
+            <ul>
+              <li><h3> Services</h3></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+            </ul>
+          </div>
+          <div class="footer-child">
+            <ul>
+              <li><h3> Services</h3></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+            </ul>
+          </div>
+          <div class="footer-child">
+            <ul>
+              <li><h3> Services</h3></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+              <li><a href="">Travel Booking</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
